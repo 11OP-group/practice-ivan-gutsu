@@ -5,14 +5,17 @@ sub_str = input(" Любимые предметы : ")
 
 student = {
     'name': name,
-    'age': int(age_str),
-    'sub': sub_str}
+    'age': age,
+    'sub': sub_str
+}
 
 
 print('=' * 30)
 print('АНКЕТА СТУДЕНТА')
 print('=' * 30)
-print(f'Имя: {student['name']}')
-print(f'Возраст: {student['age']}')
-print(f'Любимые предметы: {student['sub']}')
+
+print("Имя:", student['name'])
+print("Возраст:", student['age'])
+print("Любимые предметы:", {student['sub'])
+
 print('=' * 30)
